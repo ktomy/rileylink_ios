@@ -12,6 +12,7 @@
 		2F962EC81E7074E60070EFBD /* BolusNormalPumpEventTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F962EC71E7074E60070EFBD /* BolusNormalPumpEventTests.swift */; };
 		2F962ECA1E70831F0070EFBD /* PumpModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F962EC91E70831F0070EFBD /* PumpModelTests.swift */; };
 		2FDE1A071E57B12D00B56A27 /* ReadCurrentPageNumberMessageBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDE1A061E57B12D00B56A27 /* ReadCurrentPageNumberMessageBody.swift */; };
+		402A735128DB3CFE0026D820 /* SiteChangeTreatment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402A735028DB3CFE0026D820 /* SiteChangeTreatment.swift */; };
 		43047FC41FAEC70600508343 /* RadioFirmwareVersionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43047FC31FAEC70600508343 /* RadioFirmwareVersionTests.swift */; };
 		43047FC61FAEC83000508343 /* RFPacketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43047FC51FAEC83000508343 /* RFPacketTests.swift */; };
 		43047FC71FAEC9BC00508343 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EAD6BA1C826B92006DBA60 /* Data.swift */; };
@@ -1008,6 +1009,7 @@
 		2F962EC71E7074E60070EFBD /* BolusNormalPumpEventTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = BolusNormalPumpEventTests.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2F962EC91E70831F0070EFBD /* PumpModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PumpModelTests.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2FDE1A061E57B12D00B56A27 /* ReadCurrentPageNumberMessageBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadCurrentPageNumberMessageBody.swift; sourceTree = "<group>"; };
+		402A735028DB3CFE0026D820 /* SiteChangeTreatment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteChangeTreatment.swift; sourceTree = "<group>"; };
 		43047FC31FAEC70600508343 /* RadioFirmwareVersionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioFirmwareVersionTests.swift; sourceTree = "<group>"; };
 		43047FC51FAEC83000508343 /* RFPacketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RFPacketTests.swift; sourceTree = "<group>"; };
 		431185AE1CF25A590059ED98 /* IdentifiableClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentifiableClass.swift; sourceTree = "<group>"; };
@@ -2621,6 +2623,7 @@
 				C1D00EA01E8986F900B733B7 /* PumpResumeTreatment.swift */,
 				C121FE04233FA20E00630EB5 /* OverrideTreatment.swift */,
 				C1398D1D27C3F62100416AD6 /* MealBolusNightscoutTreatment.swift */,
+				402A735028DB3CFE0026D820 /* SiteChangeTreatment.swift */,
 			);
 			path = Treatments;
 			sourceTree = "<group>";
@@ -4076,6 +4079,7 @@
 				C1AF21E41D4865320088C41D /* LoopStatus.swift in Sources */,
 				C1398D1C27C3F28200416AD6 /* TemporaryScheduleOverride.swift in Sources */,
 				43EBE4541EAD23EC0073A0B5 /* TimeInterval.swift in Sources */,
+				402A735128DB3CFE0026D820 /* SiteChangeTreatment.swift in Sources */,
 				C1AF21F11D4901220088C41D /* NightscoutTreatment.swift in Sources */,
 				492526711E4521FB00ACBA5F /* NoteNightscoutTreatment.swift in Sources */,
 				C1A492671D4A65D9008964FF /* TempBasalAdjustment.swift in Sources */,

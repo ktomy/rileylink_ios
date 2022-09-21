@@ -24,6 +24,7 @@ public enum TreatmentType: String {
     case suspendPump = "Suspend Pump"
     case resumePump = "Resume Pump"
     case note = "Note"
+    case siteChange = "Site Change"
 
     public var classType: NightscoutTreatment.Type {
         switch self {
@@ -45,6 +46,8 @@ public enum TreatmentType: String {
             return PumpResumeTreatment.self
         case .note:
             return NoteNightscoutTreatment.self
+        case .siteChange:
+            return SiteChangeTreatment.self
         }
     }
 }
